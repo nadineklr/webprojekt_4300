@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Spezialist für Veranstaltungstechnik, Eventplanung, Audiotechnik, Touring">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound Solution – Kontakt</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/fonts/stylesheet.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/kontakt.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  
+  <!-- Script -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script defer src="scripts/navigation.js"></script>
+  <script defer src="scripts/contact.js"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="header-wrapper">
+    <header>
+      <div class="top-nav">
+        <a href="index.html"><img src="images/logo-soundsolution.svg" alt="Logo Soundsolution" id="logo"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="leistungen.html">Leistungen<span class="offscreen">, aktiver Navigationspunkt</span></a>
+            <a href="#" id="services-trigger" title="Dropdownnavigation Leistungen"><i class="fas fa-chevron-down"></i></a>
+              <ul id="services-dropdown">
+                <li><a href="leistungen.html#service-veranstaltungstechnik">Veranstaltungstechnik<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                <li><a href="leistungen.html#service-beschallung">Beschallungsplanung<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                <li><a href="leistungen.html#service-eventplanung">Eventplanung<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                <li><a href="leistungen.html#service-touring">Touring-Service<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                <li><a href="leistungen.html#service-support">Support & Freelance<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+              </ul>
+          </li>
+            <li><a href="referenzen.html">Referenzen<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+            <li><a href="#">Kontakt<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+          </ul>
+    
+          
+
+          <!-- Toggle for burger navigation -->
+          <div class="burger-box">
+            <a id="burger-toggle"><i id="burger" class="fas fa-bars"></i><span class="offscreen">Navigation öffnen</span></a>
+            <ul id="mobile-nav" class="burger-content">
+              <li><a href="index.html">Home<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+              <li><a href="leistungen.html">Leistungen<span class="offscreen">, aktiver Navigationspunkt</span></a>
+                <!-- Sub nav below services -->
+                <ul class="services-subnav">
+                  <li><a href="leistungen.html#service-veranstaltungstechnik">Veranstaltungstechnik<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                  <li><a href="leistungen.html#service-beschallung">Beschallungsplanung<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                  <li><a href="leistungen.html#service-eventplanung">Eventplanung<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                  <li><a href="leistungen.html#service-touring">Touring-Service<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                  <li><a href="leistungen.html#service-support">Support & Freelance<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+                </ul>
+              </li>
+              <li><a href="referenzen.html">Referenzen<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+              <li><a href="kontakt.html">Kontakt<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+            </ul> 
+          </div>  
+          <a href="#" id="triggerToTop" title="Zum Seitenanfang"><i class="fas fa-arrow-up"></i></a>  
+        </nav>
+      </div> 
+    </header>
+  </div>
+
+
+  <!-- Main -->
+  <main>
+    <h1>Was können wir für dich tun?</h1>
+    <!-- Contact Form  --> 
+    <div class="form-wrapper">
+      <form action="#" id="contactform">
+        <div class="infobox">
+          <!-- Name -->
+          <div class="info-group">
+            <label for="name">Vorname Nachname</label>
+                <input type="text" name="name" id="name-input" placeholder="Vorname Nachname">
+                <span id="name-error" class="error">Trage bitte Deinen Namen ein</span>
+          </div>
+          <!-- Mail -->
+          <div class="info-group">
+            <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email-input" placeholder="E-Mail">
+                <span id="mail-error" class="error">Trage bitte eine gültige E-Mail Adresse ein</span>
+          </div>
+          <!-- Telephone -->
+          <div class="info-group">
+            <label for="tel">Telefon</label>
+            <input type="tel" name="tel" id="tel-input"  placeholder="Telefon">
+            <span id="tel-error" class="error">Trage eine gültige Telefonnummer ein</span>
+          </div>
+        </div>
+        <!-- Contact time -->
+        <div class="time-group">
+          <!-- Selector -->
+          <div class="option">
+            <label for="time">Wann bist du erreichbar?</label>
+            <select name="time" id="time">
+              <option value="" disabled selected hidden>Wähle eine Uhrzeit</option>
+              <option value="1">08:00 - 10:00 Uhr</option>
+              <option value="2">10:00 - 12:00 Uhr</option>
+              <option value="3">12:00 - 14:00 Uhr</option>
+              <option value="4">14:00 - 16:00 Uhr</option>
+              <option value="5">16:00 - 18:00 Uhr</option>
+              <option value="6">18:00 - 20:00 Uhr</option>
+            </select>
+            <span id="time-error" class="error">Du hast keine Uhrzeit gewählt</span>
+          </div>
+          <!-- Checkbox -->
+          <div class="checkbox">
+            <input type="checkbox" name="weekday" id="weekday">
+            <label for="weekday">Nur werktags</label>
+          </div>
+        </div>
+
+        <!-- Messagebox -->
+        <div class="message">
+          <label for="message">Deine Nachricht:</label>
+          <textarea name="message" id="msg" placeholder="Deine Nachricht"></textarea>
+          <span id="message-error" class="error">Das Nachrichtenfeld ist leer. Bitte schildere uns Dein Anliegen.</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <input id="submit" type="submit" value="SEND" role="button">
+        </div>
+
+        <!-- Fader Box -->
+        <div class="faderbox">
+          <div class="faderline">
+            <div class="fader" id="fader1"></div>
+          </div>
+          <div class="faderline">
+            <div class="fader" id="fader2"></div>
+          </div>
+          <div class="faderline">
+            <div class="fader" id="fader3"></div>
+          </div>
+          <div class="faderline">
+            <div class="fader" id="fader4"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  
+
+  </main>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="info">
+        <p>Soundsolution</p>
+        <p class="orange">Dein Ansprechpartner für ein unvergessliches Event</p>
+        <!-- Adresse -->
+        <div class="contact">
+          <p>Michel- Angelo Kiser</p>
+          <a href="mailto:info@soundsolution.biz">info@soundsolution.biz</a>
+          <a href="tel:+41794567890">+41 79 456 78 90</a>
+        </div>
+        <div class="socialmedia">
+          <a href="https://facebook.com/soundsolutionswitzerland" rel="noreferrer" title="Auf Facebook anzeigen" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://instagram.com/soundsolutionswitzerland" rel="noreferrer" title="Auf Instagram anzeigen" target="_blank"><i class="fab fa-instagram"></i></a>
+          <p>@soundsolutionswitzerland</p>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+          <li><a href="leistungen.html">Leistungen<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+          <li><a href="referenzen.html">Referenzen<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+          <li><a href="kontakt.html">Kontakt<span class="offscreen">, aktiver Navigationspunkt</span></a></li>
+        </ul>
+      </div>
+      <img src="images/logo-soundsolution.svg" alt="Logo Soundsolution" class="footer-logo">
+    </div>
+  </footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

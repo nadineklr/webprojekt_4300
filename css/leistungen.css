@@ -1,0 +1,71 @@
+/* Leistungen */
+
+h1 {
+  width: 80%;
+  margin: auto;
+}
+
+/* Content Serviceboxes */
+.services-wrapper {
+  padding: 80px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.services-wrapper:first-of-type, .services-wrapper:last-of-type {
+  padding-top: 50px;
+}
+
+.services-wrapper h2 {
+  margin: 1rem 0;
+}
+
+main img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.band-img {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 50px 0;
+}
+
+
+
+/* --- Media Queries --- */
+/*  Desktop < 1200 */
+@media screen and (max-width: 1200px){  
+ 
+
+
+
+}
+
+
+/* Mobile  < 760 */
+@media screen and (max-width: 760px){ 
+  main img {
+    border-radius: 0px;
+  }
+
+  .band-img {
+    width: 100%;
+  }
+
+  .images {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  
+
+}
